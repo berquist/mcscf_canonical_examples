@@ -1,0 +1,18 @@
+*.html
+
+# ORCA
+
+# Q-Chem
+pathtable
+.*in
+
+# GAMESS
+
+# DALTON
+
+# Molcas
+
+# Molpro
+
+# Psi4
+timer.dat
