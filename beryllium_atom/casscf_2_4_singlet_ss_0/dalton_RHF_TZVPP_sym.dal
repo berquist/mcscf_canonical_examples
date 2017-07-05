@@ -1,0 +1,14 @@
+BASIS
+Turbomole-TZVPP
+---
+---
+Atomtypes=1 Angstrom Charge=0
+Charge=4.0 Atoms=1
+Be 0.0 0.0 0.0
+
+**DALTON INPUT
+.DIRECT
+.RUN WAVE FUNCTIONS
+**WAVE FUNCTIONS
+.HF
+**END OF DALTON INPUT

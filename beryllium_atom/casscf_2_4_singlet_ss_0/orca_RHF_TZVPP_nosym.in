@@ -1,0 +1,5 @@
+! tzvpp tightscf noautostart
+
+* xyz 0 1
+Be 0 0 0
+*

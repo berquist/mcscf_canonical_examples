@@ -1,0 +1,11 @@
+! tzvpp tightscf noautostart
+
+# Assume that the MO ordering entering the CASSCF is correct!
+%casscf
+ nel 2
+ norb 4
+ end
+
+* xyz 0 1
+Be 0 0 0
+*

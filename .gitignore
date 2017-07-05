@@ -1,6 +1,10 @@
 *.html
 
 # ORCA
+*.gbw
+*.nat
+*.prop
+*_property.txt
 
 # Q-Chem
 pathtable

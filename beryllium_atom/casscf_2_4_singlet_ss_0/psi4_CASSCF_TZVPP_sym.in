@@ -1,0 +1,17 @@
+# -*- mode: python -*-
+
+molecule {
+    Be 0.0 0.0 0.0
+}
+
+set {
+    reference rhf
+    scf_type direct
+    df_scf_guess false
+    basis tzvpp
+    num_roots 1
+    restricted_docc [1, 0, 0, 0, 0, 0, 0, 0]
+    active [1, 0, 0, 0, 0, 1, 1, 1]
+}
+
+energy('casscf')

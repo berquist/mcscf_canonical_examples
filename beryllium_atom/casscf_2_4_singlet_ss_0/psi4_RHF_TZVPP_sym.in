@@ -1,0 +1,14 @@
+# -*- mode: python -*-
+
+molecule {
+    Be 0.0 0.0 0.0
+}
+
+set {
+    reference rhf
+    scf_type direct
+    df_scf_guess false
+    basis tzvpp
+}
+
+energy('hf')
